@@ -93,7 +93,7 @@ document.getElementById('puzzle').onclick = function () {
     document.write("</ul>")
 
     document.write("</div>")
-    document.write("<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTIxNjQ4NTEtNWQ1MC00NWUxLWJmNjgtYjkzOWUwNTQ0NmZl%40thread.v2/0?context=%7b%22Tid%22%3a%2251db7917-f576-431e-9a40-b794a2469649%22%2c%22Oid%22%3a%220eb5d622-b785-43f0-8fb8-927d4b8e92f9%22%7d' target='_blank' rel='noopener noreferrer'><button id='btn'>Click Here</button></a>")
+    document.write("<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmYzMDE1NDEtYWFhNi00NjM3LTkyYzEtNTFiYWI1NzMyZDA0%40thread.v2/0?context=%7b%22Tid%22%3a%2251db7917-f576-431e-9a40-b794a2469649%22%2c%22Oid%22%3a%220eb5d622-b785-43f0-8fb8-927d4b8e92f9%22%7d' target='_blank' rel='noopener noreferrer'><button id='btn'>Click Here</button></a>")
     document.write("</body>")
     document.write("</html>")
 
