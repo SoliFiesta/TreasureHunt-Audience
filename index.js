@@ -73,27 +73,16 @@ document.getElementById('puzzle').onclick = function () {
     document.write("<link rel='stylesheet' href='index.css'>")
     document.write("</head>")
     document.write("<body>")
-    document.write("<h1>Hurray...!!! You have nailed it. Eligible For Further rounds</h1>")
+    document.write("<h1>Hurray...!!! You have nailed it.</h1>")
 
 
     document.write("<div id='rules'>")
-    document.write("<h3>Rules to be Followed:</h3>")
     document.write("<ul>")
-    document.write("<li>Further Rounds is conducted through Microsoft Teams Click the button in the page to continue</li>")
-    document.write("<li>It is mandatory to turn ON the Camera</li>")
-    document.write("<li>You have to show the objects prescribed by the host in the meet</li>")
-    document.write("<li>There will be totally 8 tasks to complete</li>")
-    document.write("<li>All players must be touching their computer before each round begins. This makes for a fair playing field.  For example, if a player is standing far from the webcam, they could reach an item faster than the others.</li>")
-    document.write("<li>The host calls out the first item on the list and starts the preset countdown</li>")
-    document.write("<li>The players must rush to find the item in their house or Office and bring it to the webcam before the timer runs out. </li>")
-    document.write("<li>Once the countdown ends, all players must come back to the starting position, irrespective of if they found the item or not</li>")
-    document.write("<li>The host then writes down the points won by each player, next to the item.</li>")
-    document.write("<li>The first person to bring the item will be awarded 2pts and the second will be awarded with 1pt for each clue  </li>")
-    document.write("<li>After completion of all the round based on the points earned winner will be decided</li>")
+    document.write("<li>Click Below  </li>")
     document.write("</ul>")
 
     document.write("</div>")
-    document.write("<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_NmYzMDE1NDEtYWFhNi00NjM3LTkyYzEtNTFiYWI1NzMyZDA0%40thread.v2/0?context=%7b%22Tid%22%3a%2251db7917-f576-431e-9a40-b794a2469649%22%2c%22Oid%22%3a%220eb5d622-b785-43f0-8fb8-927d4b8e92f9%22%7d' target='_blank' rel='noopener noreferrer'><button id='btn'>Click Here</button></a>")
+    document.write("<a href='https://www.youtube.com/watch?v=9bZkp7q19f0' target='_blank' rel='noopener noreferrer'><button id='btn'>Click Here</button></a>")
     document.write("</body>")
     document.write("</html>")
 
@@ -101,26 +90,26 @@ document.getElementById('puzzle').onclick = function () {
   }
 };
 
-if (!solved) {
-  setTimeout(function () {
-    alert("OOPS... Time Out!");
-    document.write("<!DOCTYPE html>")
-    document.write("<html lang='en'>")
-    document.write("<head>")
-    document.write("<meta charset='UTF-8'>")
-    document.write("<meta http-equiv='X-UA-Compatible' content='IE=edge'>")
-    document.write("<meta name='viewport' content='width=device-width, initial-scale=1.0'>")
-    document.write("<title>OOPS......</title>")
-    document.write("<link rel='stylesheet' href='index.css'>")
-    document.write("</head>")
-    document.write("<body>")
-    document.write("<h1>Better Luck Next Time</h1>")
-    // document.write("<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTIxNjQ4NTEtNWQ1MC00NWUxLWJmNjgtYjkzOWUwNTQ0NmZl%40thread.v2/0?context=%7b%22Tid%22%3a%2251db7917-f576-431e-9a40-b794a2469649%22%2c%22Oid%22%3a%220eb5d622-b785-43f0-8fb8-927d4b8e92f9%22%7d' target='_blank' rel='noopener noreferrer'><button>Click Here</button></a>")
-    document.write("</body>")
-    document.write("</html>")
+// if (!solved) {
+//   setTimeout(function () {
+//     alert("OOPS... Time Out!");
+//     document.write("<!DOCTYPE html>")
+//     document.write("<html lang='en'>")
+//     document.write("<head>")
+//     document.write("<meta charset='UTF-8'>")
+//     document.write("<meta http-equiv='X-UA-Compatible' content='IE=edge'>")
+//     document.write("<meta name='viewport' content='width=device-width, initial-scale=1.0'>")
+//     document.write("<title>OOPS......</title>")
+//     document.write("<link rel='stylesheet' href='index.css'>")
+//     document.write("</head>")
+//     document.write("<body>")
+//     document.write("<h1>Better Luck Next Time</h1>")
+//     // document.write("<a href='https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTIxNjQ4NTEtNWQ1MC00NWUxLWJmNjgtYjkzOWUwNTQ0NmZl%40thread.v2/0?context=%7b%22Tid%22%3a%2251db7917-f576-431e-9a40-b794a2469649%22%2c%22Oid%22%3a%220eb5d622-b785-43f0-8fb8-927d4b8e92f9%22%7d' target='_blank' rel='noopener noreferrer'><button>Click Here</button></a>")
+//     document.write("</body>")
+//     document.write("</html>")
 
-  }, timeOutInSec);
-}
+//   }, timeOutInSec);
+// }
 
 function distance(x1, y1, x2, y2) {
   return Math.abs(x1 - x2) + Math.abs(y1 - y2);
